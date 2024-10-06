@@ -191,7 +191,7 @@ void NES_N106::Tick (UINT32 clocks)
 			index = 255.0;
 		}
 
-		if (false) {
+		if (true) {
 			fout[channel] = linear_approximate(
 				index, (INT32)index,
 				((INT32)index) + 1,
